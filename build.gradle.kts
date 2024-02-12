@@ -3,3 +3,8 @@ plugins {
     id("com.android.application") version "8.2.0" apply false
     id("org.jetbrains.kotlin.android") version "1.9.10" apply false
 }
+buildscript {
+    extra.apply {
+        set("kotlin_version", "1.6.21")
+    }
+}
